@@ -135,11 +135,7 @@ font-weight: bold;
 
 }
 
- about img src {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  position: left;
-  
-}
+<nav class="ABOUT">
+    <img src="path/to/your/image.jpg" alt="About Image">
+</nav>
 
