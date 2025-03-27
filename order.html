@@ -23,6 +23,28 @@
 </head>
 <body>
     <h1>Order Your Food</h1>
+    
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <h3>Pizza</h3>
+                <p>Delicious cheese pizza with a crispy crust.</p>
+                <p>Price: $10</p>
+            </li>
+            <li>
+                <h3>Burger</h3>
+                <p>Juicy beef burger with fresh lettuce and tomato.</p>
+                <p>Price: $8</p>
+            </li>
+            <li>
+                <h3>Sushi</h3>
+                <p>Fresh sushi rolls with a variety of fillings.</p>
+                <p>Price: $12</p>
+            </li>
+        </ul>
+    </section>
+    
     <form id="orderForm">
         <label for="foodItem">Select Food Item:</label>
         <select id="foodItem">
@@ -34,7 +56,9 @@
         <input type="number" id="quantity" min="1" value="1">
         <button type="submit">Order Now</button>
     </form>
+    
     <div id="orderSummary"></div>
+    
     <script src="script.js"></script>
 </body>
 </html>
